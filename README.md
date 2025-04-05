@@ -5,4 +5,8 @@ org.anime.storyboard -- metamodel
 
 storyboard.design2 -- odesign -- sirius visualization panel
 
+org.eclipse.acceleo.generateJSON -- transform XML file (the language .storyboard is using) to .JSON (sample json can be located in .mySample)
+
 storyboard.mySample -- a sample .storyboard
+
+
