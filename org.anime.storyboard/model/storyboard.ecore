@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="storyboard" nsURI="http://www.example.org/storyboard" nsPrefix="storyboard">
+  <eClassifiers xsi:type="ecore:EClass" name="Storyboard">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scenes" upperBound="-1"
+        eType="#//Scene" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Scene" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+        <details value="self.id &lt;> null and self.id.trim().size() > 0"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="duration" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DialogueScene" eSuperTypes="#//Scene">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dialogues" upperBound="-1"
+        eType="#//Dialogue" containment="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+        <details value="self.dialogues->forAll(d1,d2 | d1 &lt;> d2 implies d1.id &lt;> d2.id)"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="characters" upperBound="-1"
+        eType="#//Character" containment="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+        <details value="self.characters->forAll(c1, c2 | c1 &lt;> c2 implies c1.name &lt;> c2.name )"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CameraScene" eSuperTypes="#//Scene">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="camera" lowerBound="1"
+        eType="#//Camera" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Character">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+        <details value="self.name &lt;> null and self.name.trim().size() > 0"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="positionX" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="positionY" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="action" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Camera">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//CameraType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="positionX" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="positionY" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="movement" lowerBound="1"
+        eType="#//CameraMovementType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Dialogue">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+        <details value="self.id &lt;> null and self.id.trim().size > 0"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="duration" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="speaker" lowerBound="1"
+        eType="#//Character"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="CameraType">
+    <eLiterals name="LongShot"/>
+    <eLiterals name="CloseUp" value="1"/>
+    <eLiterals name="WideAngle" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="CameraMovementType">
+    <eLiterals name="PanLeft"/>
+    <eLiterals name="ZoomIn" value="1"/>
+  </eClassifiers>
+</ecore:EPackage>
