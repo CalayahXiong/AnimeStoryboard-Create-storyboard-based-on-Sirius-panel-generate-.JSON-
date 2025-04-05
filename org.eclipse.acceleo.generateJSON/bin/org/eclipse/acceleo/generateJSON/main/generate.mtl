@@ -1,0 +1,66 @@
+[comment encoding = UTF-8 /]
+
+[module generate('http://www.example.org/storyboard')]
+
+[template public generateStoryboard(sb : Storyboard)]
+[comment @main/]
+[file (sb.description.concat('.json'), false, 'UTF-8')]
+{
+  "description": "[sb.description/]",
+  "scenes": ['['/]
+    [for (s : Scene | sb.scenes) separator (', ') ]
+
+      [if (s.oclIsKindOf(storyboard::DialogueScene))]
+        {
+          "type": "DialogueScene",
+          "id": [s.id/],
+          "description": "[s.description/]",
+          "duration": [s.duration/],
+          [comment containment: characters/]
+          "characters": ['['/]
+            [for (c : Character | s.oclAsType(storyboard::DialogueScene).characters) separator (', ') ]
+              {
+                "name": "[c.name/]",
+                "positionX": [c.positionX/],
+                "positionY": [c.positionY/],
+                "action": "[c.action/]"
+              }
+            [/for]
+          [']'/],
+
+          [comment containment: dialogues/]
+          "dialogues": ['['/]
+            [for (d : Dialogue | s.oclAsType(storyboard::DialogueScene).dialogues) separator (', ') ]
+              {
+                "id": "[d.id/]",
+                "text": "[d.text/]",
+                "duration": [d.duration/],
+                "speaker": [if d.speaker <> null] "[d.speaker.name/]" [else] "Unknown" [/if]
+              }
+            [/for]
+          [']'/]
+
+        }
+
+      [else] 
+		[if (s.oclIsKindOf(storyboard::CameraScene))]
+        {
+          "type": "CameraScene",
+          "id": [s.id/],
+          "description": "[s.description/]",
+          "duration": [s.duration/],
+          "camera": {
+            "type": "[s.oclAsType(storyboard::CameraScene).camera.type/]",
+            "positionX": [s.oclAsType(storyboard::CameraScene).camera.positionX/],
+            "positionY": [s.oclAsType(storyboard::CameraScene).camera.positionY/],
+            "movement": "[s.oclAsType(storyboard::CameraScene).camera.movement/]"
+          }
+        }
+      [/if]
+
+	[/if]
+    [/for]
+  [']'/]
+}
+[/file]
+[/template]
