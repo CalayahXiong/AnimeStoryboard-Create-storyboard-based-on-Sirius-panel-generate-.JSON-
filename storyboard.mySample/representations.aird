@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:storyboard="http://www.example.org/storyboard" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description http://www.example.org/storyboard platform:/resource/org.anime.storyboard/model/storyboard.ecore http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_e-lGAAzYEfCYUrlAY44iKA" selectedViews="_ToVawA8uEfCK1tx16l5mKQ" version="15.4.1.202403191723">
+    <semanticResources>SampleStoryboard.storyboard</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_sBcC4AzZEfCYUrlAY44iKA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_LAooUA8yEfCh4sSKJIM4tA" name="storyboard diagram 1" repPath="#_LAal4A8yEfCh4sSKJIM4tA" changeId="1743536874637">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']"/>
+        <target xmi:type="storyboard:Storyboard" href="SampleStoryboard.storyboard#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_ToVawA8uEfCK1tx16l5mKQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_xfDZkQ8zEfCh4sSKJIM4tA" name="new storyboard diagram" repPath="#_xfCygA8zEfCh4sSKJIM4tA" changeId="1743641436457">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']"/>
+        <target xmi:type="storyboard:Storyboard" href="SampleStoryboard.storyboard#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_UATFcA9HEfCas5tY6Mh3KQ" name="new Storyboard table" repPath="#_T_75EA9HEfCas5tY6Mh3KQ" changeId="1743641348571">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']"/>
+        <target xmi:type="storyboard:Storyboard" href="SampleStoryboard.storyboard#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_LAal4A8yEfCh4sSKJIM4tA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LA3R0A8yEfCh4sSKJIM4tA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_LA3R0Q8yEfCh4sSKJIM4tA" type="Sirius" element="_LAal4A8yEfCh4sSKJIM4tA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_LBarcA8yEfCh4sSKJIM4tA" type="2002" element="_LBDfEA8yEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_LBeV0A8yEfCh4sSKJIM4tA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_LBgyEA8yEfCh4sSKJIM4tA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_LBlqkA8yEfCh4sSKJIM4tA" type="3008" element="_LBHwgA8yEfCh4sSKJIM4tA">
+              <children xmi:type="notation:Node" xmi:id="_LBlqkw8yEfCh4sSKJIM4tA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_LBmRoA8yEfCh4sSKJIM4tA" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_LBmRoQ8yEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_LBmRog8yEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_LBnfwA8yEfCh4sSKJIM4tA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_LBlqkQ8yEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBlqkg8yEfCh4sSKJIM4tA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LBnfwQ8yEfCh4sSKJIM4tA" type="3008" element="_LBHwgQ8yEfCh4sSKJIM4tA">
+              <children xmi:type="notation:Node" xmi:id="_LBnfxA8yEfCh4sSKJIM4tA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_LBnfxQ8yEfCh4sSKJIM4tA" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_LBnfxg8yEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_LBnfxw8yEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_LBnfyA8yEfCh4sSKJIM4tA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_LBnfwg8yEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBnfww8yEfCh4sSKJIM4tA" y="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LBgyEQ8yEfCh4sSKJIM4tA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LBgyEg8yEfCh4sSKJIM4tA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LBarcQ8yEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBarcg8yEfCh4sSKJIM4tA" x="293" y="360"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LBj1YA8yEfCh4sSKJIM4tA" type="2002" element="_LBGiYA8yEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_LBj1Yw8yEfCh4sSKJIM4tA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_LBj1ZA8yEfCh4sSKJIM4tA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_LBoG0A8yEfCh4sSKJIM4tA" type="3008" element="_LBIXkA8yEfCh4sSKJIM4tA">
+              <children xmi:type="notation:Node" xmi:id="_LBoG0w8yEfCh4sSKJIM4tA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_LBoG1A8yEfCh4sSKJIM4tA" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_LBoG1Q8yEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_LBoG1g8yEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_LBoG1w8yEfCh4sSKJIM4tA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_LBoG0Q8yEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBoG0g8yEfCh4sSKJIM4tA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LBoG2A8yEfCh4sSKJIM4tA" type="3008" element="_LBIXkQ8yEfCh4sSKJIM4tA">
+              <children xmi:type="notation:Node" xmi:id="_LBoG2w8yEfCh4sSKJIM4tA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_LBot4A8yEfCh4sSKJIM4tA" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_LBot4Q8yEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_LBot4g8yEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_LBot4w8yEfCh4sSKJIM4tA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_LBoG2Q8yEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBoG2g8yEfCh4sSKJIM4tA" y="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LBj1ZQ8yEfCh4sSKJIM4tA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LBj1Zg8yEfCh4sSKJIM4tA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LBj1YQ8yEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBj1Yg8yEfCh4sSKJIM4tA" x="270" y="135"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LBj1Zw8yEfCh4sSKJIM4tA" type="2002" element="_LBI-oA8yEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_LBkccA8yEfCh4sSKJIM4tA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_LBkccQ8yEfCh4sSKJIM4tA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LBkccg8yEfCh4sSKJIM4tA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LBkccw8yEfCh4sSKJIM4tA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LBj1aA8yEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBj1aQ8yEfCh4sSKJIM4tA" x="300" y="285"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LBkcdA8yEfCh4sSKJIM4tA" type="2002" element="_LBI-oQ8yEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_LBkcdw8yEfCh4sSKJIM4tA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_LBkceA8yEfCh4sSKJIM4tA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LBkceQ8yEfCh4sSKJIM4tA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LBkceg8yEfCh4sSKJIM4tA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LBkcdQ8yEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBkcdg8yEfCh4sSKJIM4tA" x="255" y="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_LA3R0g8yEfCh4sSKJIM4tA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_LBx30A8yEfCh4sSKJIM4tA" type="4001" element="_LBPsUA8yEfCh4sSKJIM4tA" source="_LBj1Zw8yEfCh4sSKJIM4tA" target="_LBj1YA8yEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_LBzF8A8yEfCh4sSKJIM4tA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBzF8Q8yEfCh4sSKJIM4tA" x="1" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LB0UEA8yEfCh4sSKJIM4tA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LB0UEQ8yEfCh4sSKJIM4tA" x="2" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LB0UEg8yEfCh4sSKJIM4tA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LB0UEw8yEfCh4sSKJIM4tA" x="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LBx30Q8yEfCh4sSKJIM4tA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LBx30g8yEfCh4sSKJIM4tA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LBx30w8yEfCh4sSKJIM4tA" points="[0, 0, 24, 23]$[-24, -23, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LB6asA8yEfCh4sSKJIM4tA" id="(0.5263157894736842,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LB6asQ8yEfCh4sSKJIM4tA" id="(0.5098039215686274,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LB6asg8yEfCh4sSKJIM4tA" type="4001" element="_LBSIkA8yEfCh4sSKJIM4tA" source="_LBarcA8yEfCh4sSKJIM4tA" target="_LBj1Zw8yEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_LB7BwA8yEfCh4sSKJIM4tA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LB7BwQ8yEfCh4sSKJIM4tA" x="3" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LB7Bwg8yEfCh4sSKJIM4tA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LB7Bww8yEfCh4sSKJIM4tA" x="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LB7BxA8yEfCh4sSKJIM4tA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LB7BxQ8yEfCh4sSKJIM4tA" x="-1" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LB6asw8yEfCh4sSKJIM4tA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LB6atA8yEfCh4sSKJIM4tA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LB6atQ8yEfCh4sSKJIM4tA" points="[0, 0, -1, 33]$[1, -33, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LB7Bxg8yEfCh4sSKJIM4tA" id="(0.5098039215686274,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LB7Bxw8yEfCh4sSKJIM4tA" id="(0.5263157894736842,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LB7ByA8yEfCh4sSKJIM4tA" type="4001" element="_LBSIlQ8yEfCh4sSKJIM4tA" source="_LBj1YA8yEfCh4sSKJIM4tA" target="_LBkcdA8yEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_LB7o0w8yEfCh4sSKJIM4tA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LB7o1A8yEfCh4sSKJIM4tA" x="1" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LB7o1Q8yEfCh4sSKJIM4tA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LB7o1g8yEfCh4sSKJIM4tA" x="2" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LB7o1w8yEfCh4sSKJIM4tA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LB7o2A8yEfCh4sSKJIM4tA" x="2" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LB7o0A8yEfCh4sSKJIM4tA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LB7o0Q8yEfCh4sSKJIM4tA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LB7o0g8yEfCh4sSKJIM4tA" points="[0, 0, 21, 63]$[-21, -63, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LB8P4A8yEfCh4sSKJIM4tA" id="(0.5098039215686274,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LB8P4Q8yEfCh4sSKJIM4tA" id="(0.5263157894736842,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LBTWsA8yEfCh4sSKJIM4tA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_LBTWsQ8yEfCh4sSKJIM4tA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LBDfEA8yEfCh4sSKJIM4tA" outgoingEdges="_LBSIkA8yEfCh4sSKJIM4tA" childrenPresentation="VerticalStack">
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LBHwgA8yEfCh4sSKJIM4tA" childrenPresentation="HorizontalStack">
+        <target xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char1"/>
+        <semanticElements xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char1"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LBHwgQ8yEfCh4sSKJIM4tA" childrenPresentation="HorizontalStack">
+        <target xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char2"/>
+        <semanticElements xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char2"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LBGiYA8yEfCh4sSKJIM4tA" outgoingEdges="_LBSIlQ8yEfCh4sSKJIM4tA" incomingEdges="_LBPsUA8yEfCh4sSKJIM4tA" childrenPresentation="VerticalStack">
+      <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      <semanticElements xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LBIXkA8yEfCh4sSKJIM4tA" childrenPresentation="HorizontalStack">
+        <target xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char1"/>
+        <semanticElements xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char1"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LBIXkQ8yEfCh4sSKJIM4tA" childrenPresentation="HorizontalStack">
+        <target xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char2"/>
+        <semanticElements xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char2"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LBI-oA8yEfCh4sSKJIM4tA" outgoingEdges="_LBPsUA8yEfCh4sSKJIM4tA" incomingEdges="_LBSIkA8yEfCh4sSKJIM4tA" childrenPresentation="VerticalStack">
+      <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_LBI-oQ8yEfCh4sSKJIM4tA" incomingEdges="_LBSIlQ8yEfCh4sSKJIM4tA" childrenPresentation="VerticalStack">
+      <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LBPsUA8yEfCh4sSKJIM4tA" sourceNode="_LBI-oA8yEfCh4sSKJIM4tA" targetNode="_LBGiYA8yEfCh4sSKJIM4tA">
+      <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LBQ6cA8yEfCh4sSKJIM4tA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LBQ6cQ8yEfCh4sSKJIM4tA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LBSIkA8yEfCh4sSKJIM4tA" sourceNode="_LBDfEA8yEfCh4sSKJIM4tA" targetNode="_LBI-oA8yEfCh4sSKJIM4tA">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LBSIkQ8yEfCh4sSKJIM4tA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LBSIkg8yEfCh4sSKJIM4tA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LBSIlQ8yEfCh4sSKJIM4tA" sourceNode="_LBGiYA8yEfCh4sSKJIM4tA" targetNode="_LBI-oQ8yEfCh4sSKJIM4tA">
+      <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LBSIlg8yEfCh4sSKJIM4tA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LBSIlw8yEfCh4sSKJIM4tA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_LAgsgA8yEfCh4sSKJIM4tA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/storyboard.design/description/storyboard.odesign#//@ownedViewpoints[name='storyboard']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer"/>
+    <target xmi:type="storyboard:Storyboard" href="SampleStoryboard.storyboard#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_xfCygA8zEfCh4sSKJIM4tA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_xfEAoA8zEfCh4sSKJIM4tA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_xfEAoQ8zEfCh4sSKJIM4tA" type="Sirius" element="_xfCygA8zEfCh4sSKJIM4tA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_xfgslA8zEfCh4sSKJIM4tA" type="2002" element="_xfcbIQ8zEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_xfgslw8zEfCh4sSKJIM4tA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_xfgsmA8zEfCh4sSKJIM4tA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_xfihxA8zEfCh4sSKJIM4tA" type="3008" element="_xfdpQA8zEfCh4sSKJIM4tA">
+              <children xmi:type="notation:Node" xmi:id="_xfihxw8zEfCh4sSKJIM4tA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_xfjI0A8zEfCh4sSKJIM4tA" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_xfjI0Q8zEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_xfjI0g8zEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_xfjI0w8zEfCh4sSKJIM4tA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_xfihxQ8zEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xfihxg8zEfCh4sSKJIM4tA" y="81"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_xfjI1A8zEfCh4sSKJIM4tA" type="3008" element="_xfdpQQ8zEfCh4sSKJIM4tA">
+              <children xmi:type="notation:Node" xmi:id="_xfjv4A8zEfCh4sSKJIM4tA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_xfjv4Q8zEfCh4sSKJIM4tA" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_xfjv4g8zEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_xfjv4w8zEfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_xfjv5A8zEfCh4sSKJIM4tA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_xfjI1Q8zEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xfjI1g8zEfCh4sSKJIM4tA" y="122"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BmCagQ9QEfCas5tY6Mh3KQ" type="3008" element="_BUleKw9QEfCas5tY6Mh3KQ">
+              <children xmi:type="notation:Node" xmi:id="_BmCahA9QEfCas5tY6Mh3KQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_BmCahQ9QEfCas5tY6Mh3KQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_BmCahg9QEfCas5tY6Mh3KQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_BmCahw9QEfCas5tY6Mh3KQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_BmCaiA9QEfCas5tY6Mh3KQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_BmCagg9QEfCas5tY6Mh3KQ" fontName="Segoe UI" fontHeight="12" underline="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BmCagw9QEfCas5tY6Mh3KQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BmCaiQ9QEfCas5tY6Mh3KQ" type="3008" element="_BUmFMQ9QEfCas5tY6Mh3KQ">
+              <children xmi:type="notation:Node" xmi:id="_BmCajA9QEfCas5tY6Mh3KQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_BmCajQ9QEfCas5tY6Mh3KQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_BmCajg9QEfCas5tY6Mh3KQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_BmCajw9QEfCas5tY6Mh3KQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_BmCakA9QEfCas5tY6Mh3KQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_BmCaig9QEfCas5tY6Mh3KQ" fontName="Segoe UI" fontHeight="12" underline="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BmCaiw9QEfCas5tY6Mh3KQ" y="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_xfgsmQ8zEfCh4sSKJIM4tA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_xfhToA8zEfCh4sSKJIM4tA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xfgslQ8zEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xfgslg8zEfCh4sSKJIM4tA" x="15" y="147"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xfhToQ8zEfCh4sSKJIM4tA" type="2002" element="_xfdpQg8zEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_xfhTpA8zEfCh4sSKJIM4tA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_xfhTpQ8zEfCh4sSKJIM4tA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_wvCVEA83EfCh4sSKJIM4tA" type="3009" element="_wu6ZSA83EfCh4sSKJIM4tA">
+              <children xmi:type="notation:Node" xmi:id="_wvCVEw83EfCh4sSKJIM4tA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_wvC8IA83EfCh4sSKJIM4tA" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_wvC8IQ83EfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_wvC8Ig83EfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_wvC8Iw83EfCh4sSKJIM4tA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_wvCVEQ83EfCh4sSKJIM4tA" fontColor="16777215" fontName="Segoe UI" fontHeight="12" italic="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wvCVEg83EfCh4sSKJIM4tA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_xfhTpg8zEfCh4sSKJIM4tA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_xfhTpw8zEfCh4sSKJIM4tA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xfhTog8zEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xfhTow8zEfCh4sSKJIM4tA" x="150" y="405"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xfhTqA8zEfCh4sSKJIM4tA" type="2002" element="_xfdpQw8zEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_xfhTqw8zEfCh4sSKJIM4tA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_xfhTrA8zEfCh4sSKJIM4tA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_wvC8JA83EfCh4sSKJIM4tA" type="3009" element="_wu7AUg83EfCh4sSKJIM4tA">
+              <children xmi:type="notation:Node" xmi:id="_wvDjMA83EfCh4sSKJIM4tA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_wvDjMQ83EfCh4sSKJIM4tA" type="7003">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_wvDjMg83EfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_wvDjMw83EfCh4sSKJIM4tA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_wvDjNA83EfCh4sSKJIM4tA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_wvC8JQ83EfCh4sSKJIM4tA" fontColor="16777215" fontName="Segoe UI" fontHeight="12" italic="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wvC8Jg83EfCh4sSKJIM4tA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_xfhTrQ8zEfCh4sSKJIM4tA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_xfhTrg8zEfCh4sSKJIM4tA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xfhTqQ8zEfCh4sSKJIM4tA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xfhTqg8zEfCh4sSKJIM4tA" x="138" y="45"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_xfEAog8zEfCh4sSKJIM4tA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_krw10A9KEfCas5tY6Mh3KQ" type="4001" element="_krtLcA9KEfCas5tY6Mh3KQ" source="_xfhToQ8zEfCh4sSKJIM4tA" target="_xfgslA8zEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_krw11A9KEfCas5tY6Mh3KQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_krw11Q9KEfCas5tY6Mh3KQ" x="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_krw11g9KEfCas5tY6Mh3KQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_krw11w9KEfCas5tY6Mh3KQ" x="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_krw12A9KEfCas5tY6Mh3KQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_krw12Q9KEfCas5tY6Mh3KQ" x="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_krw10Q9KEfCas5tY6Mh3KQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_krw10g9KEfCas5tY6Mh3KQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_krw10w9KEfCas5tY6Mh3KQ" points="[0, 0, 10, 55]$[-10, -55, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_krxc4A9KEfCas5tY6Mh3KQ" id="(0.5028248587570622,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_krxc4Q9KEfCas5tY6Mh3KQ" id="(0.5023474178403756,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_kryD8g9KEfCas5tY6Mh3KQ" type="4001" element="_krtygg9KEfCas5tY6Mh3KQ" source="_xfgslA8zEfCh4sSKJIM4tA" target="_xfhTqA8zEfCh4sSKJIM4tA">
+          <children xmi:type="notation:Node" xmi:id="_kryD9g9KEfCas5tY6Mh3KQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kryD9w9KEfCas5tY6Mh3KQ" x="6" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kryD-A9KEfCas5tY6Mh3KQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kryD-Q9KEfCas5tY6Mh3KQ" x="-3" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kryD-g9KEfCas5tY6Mh3KQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kryD-w9KEfCas5tY6Mh3KQ" x="-4" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_kryD8w9KEfCas5tY6Mh3KQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kryD9A9KEfCas5tY6Mh3KQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kryD9Q9KEfCas5tY6Mh3KQ" points="[0, 0, 15, 22]$[-15, -22, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kryrAA9KEfCas5tY6Mh3KQ" id="(0.5023474178403756,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kryrAQ9KEfCas5tY6Mh3KQ" id="(0.5066666666666667,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_xffedQ8zEfCh4sSKJIM4tA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_xffedg8zEfCh4sSKJIM4tA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_xfcbIQ8zEfCh4sSKJIM4tA" name="Albus Dumbledore stops near a cat." outgoingEdges="_krtygg9KEfCas5tY6Mh3KQ" incomingEdges="_krtLcA9KEfCas5tY6Mh3KQ" childrenPresentation="VerticalStack">
+      <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      <semanticElements xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_l_vuuRAlEfCJDIgy3cjwgQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_xfdpQA8zEfCh4sSKJIM4tA" name="Albus Dumbledore" childrenPresentation="HorizontalStack">
+        <target xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char1"/>
+        <semanticElements xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_-CVpEg81EfCh4sSKJIM4tA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_xfdpQQ8zEfCh4sSKJIM4tA" name="Minerva McGonagall" childrenPresentation="HorizontalStack">
+        <target xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char2"/>
+        <semanticElements xmi:type="storyboard:Character" href="SampleStoryboard.storyboard#char2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_-CVpFA81EfCh4sSKJIM4tA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+          <labelFormat>italic</labelFormat>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_BUleKw9QEfCas5tY6Mh3KQ" name="Good evening, Professor Minerva McGonagall." childrenPresentation="VerticalStack">
+        <target xmi:type="storyboard:Dialogue" href="SampleStoryboard.storyboard#//@scenes.1/@dialogues.0"/>
+        <semanticElements xmi:type="storyboard:Dialogue" href="SampleStoryboard.storyboard#//@scenes.1/@dialogues.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_BUleLA9QEfCas5tY6Mh3KQ" labelSize="12" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <labelFormat>underline</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='DialogueNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='DialogueNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_BUmFMQ9QEfCas5tY6Mh3KQ" name="Miao~~" childrenPresentation="VerticalStack">
+        <target xmi:type="storyboard:Dialogue" href="SampleStoryboard.storyboard#//@scenes.1/@dialogues.1"/>
+        <semanticElements xmi:type="storyboard:Dialogue" href="SampleStoryboard.storyboard#//@scenes.1/@dialogues.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_BUmFMg9QEfCas5tY6Mh3KQ" labelSize="12" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <labelFormat>underline</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='DialogueNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='DialogueNode']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_xfdpQg8zEfCh4sSKJIM4tA" name="Wide-angle shot" outgoingEdges="_krtLcA9KEfCas5tY6Mh3KQ" childrenPresentation="VerticalStack">
+      <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gYINgA82EfCh4sSKJIM4tA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="253,206,137">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_wu6ZSA83EfCh4sSKJIM4tA" name="WideAngle">
+        <target xmi:type="storyboard:Camera" href="SampleStoryboard.storyboard#//@scenes.0/@camera"/>
+        <semanticElements xmi:type="storyboard:Camera" href="SampleStoryboard.storyboard#//@scenes.0/@camera"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_wu7AUA83EfCh4sSKJIM4tA" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" borderColor="255,255,255" foregroundColor="0,0,0">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']/@subContainerMappings[name='CameraNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']/@subContainerMappings[name='CameraNode']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_xfdpQw8zEfCh4sSKJIM4tA" name="Close-up shot" incomingEdges="_krtygg9KEfCas5tY6Mh3KQ" childrenPresentation="VerticalStack">
+      <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gYINgg82EfCh4sSKJIM4tA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="253,206,137">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_wu7AUg83EfCh4sSKJIM4tA" name="CloseUp">
+        <target xmi:type="storyboard:Camera" href="SampleStoryboard.storyboard#//@scenes.2/@camera"/>
+        <semanticElements xmi:type="storyboard:Camera" href="SampleStoryboard.storyboard#//@scenes.2/@camera"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_wu7AUw83EfCh4sSKJIM4tA" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" borderColor="255,255,255" foregroundColor="0,0,0">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']/@subContainerMappings[name='CameraNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']/@subContainerMappings[name='CameraNode']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_krtLcA9KEfCas5tY6Mh3KQ" sourceNode="_xfdpQg8zEfCh4sSKJIM4tA" targetNode="_xfcbIQ8zEfCh4sSKJIM4tA">
+      <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_krtLcQ9KEfCas5tY6Mh3KQ" sourceArrow="OutputClosedArrow" targetArrow="InputClosedArrow" size="2" strokeColor="154,103,23">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_krtLcg9KEfCas5tY6Mh3KQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_krtygg9KEfCas5tY6Mh3KQ" sourceNode="_xfcbIQ8zEfCh4sSKJIM4tA" targetNode="_xfdpQw8zEfCh4sSKJIM4tA">
+      <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_krtygw9KEfCas5tY6Mh3KQ" sourceArrow="OutputClosedArrow" targetArrow="InputClosedArrow" size="2" strokeColor="154,103,23">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_krtyhA9KEfCas5tY6Mh3KQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_xfDZkA8zEfCh4sSKJIM4tA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer"/>
+    <target xmi:type="storyboard:Storyboard" href="SampleStoryboard.storyboard#/"/>
+  </diagram:DSemanticDiagram>
+  <table:DTable uid="_T_75EA9HEfCas5tY6Mh3KQ" headerColumnWidth="162">
+    <target xmi:type="storyboard:Storyboard" href="SampleStoryboard.storyboard#/"/>
+    <lines xmi:type="table:DLine" uid="_T_75Ew9HEfCas5tY6Mh3KQ" label="Camera Scene 2">
+      <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']/@ownedLineMappings[name='SceneLine']"/>
+      <cells xmi:type="table:DCell" uid="_UARQQA9HEfCas5tY6Mh3KQ" label="2" column="_T_75GQ9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+        <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UARQQg9HEfCas5tY6Mh3KQ" label="Wide-angle shot" column="_T_75Gw9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+        <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UARQRA9HEfCas5tY6Mh3KQ" label="10.0" column="_T_75HQ9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+        <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UARQRg9HEfCas5tY6Mh3KQ" label="WideAngle" column="_T_75IQ9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+        <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_T_75FQ9HEfCas5tY6Mh3KQ" label="Dialogue Scene 3">
+      <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      <semanticElements xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']/@ownedLineMappings[name='SceneLine']"/>
+      <cells xmi:type="table:DCell" uid="_UARQSA9HEfCas5tY6Mh3KQ" label="3" column="_T_75GQ9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+        <semanticElements xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UARQSg9HEfCas5tY6Mh3KQ" label="Albus Dumbledore stops near a cat." column="_T_75Gw9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+        <semanticElements xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UARQTA9HEfCas5tY6Mh3KQ" label="10.0" column="_T_75HQ9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+        <semanticElements xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UARQTg9HEfCas5tY6Mh3KQ" label="[Good evening, Professor Minerva McGonagall., Miao~~]" column="_T_75Hw9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+        <semanticElements xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UARQUA9HEfCas5tY6Mh3KQ" label="[Albus Dumbledore, Minerva McGonagall]" column="_T_8gIA9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+        <semanticElements xmi:type="storyboard:DialogueScene" href="SampleStoryboard.storyboard#//@scenes.1"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" uid="_T_75Fw9HEfCas5tY6Mh3KQ" label="Camera Scene 4">
+      <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']/@ownedLineMappings[name='SceneLine']"/>
+      <cells xmi:type="table:DCell" uid="_UASeYQ9HEfCas5tY6Mh3KQ" label="4" column="_T_75GQ9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+        <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UASeYw9HEfCas5tY6Mh3KQ" label="Close-up shot" column="_T_75Gw9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+        <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UASeZQ9HEfCas5tY6Mh3KQ" label="10.0" column="_T_75HQ9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+        <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_UASeZw9HEfCas5tY6Mh3KQ" label="CloseUp" column="_T_75IQ9HEfCas5tY6Mh3KQ">
+        <target xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+        <semanticElements xmi:type="storyboard:CameraScene" href="SampleStoryboard.storyboard#//@scenes.2"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" uid="_T_75GQ9HEfCas5tY6Mh3KQ" label="ID" cells="_UARQQA9HEfCas5tY6Mh3KQ _UARQSA9HEfCas5tY6Mh3KQ _UASeYQ9HEfCas5tY6Mh3KQ" width="30" featureName="id">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']/@ownedColumnMappings[name='id']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_T_75Gw9HEfCas5tY6Mh3KQ" label="Description" cells="_UARQQg9HEfCas5tY6Mh3KQ _UARQSg9HEfCas5tY6Mh3KQ _UASeYw9HEfCas5tY6Mh3KQ" width="245" featureName="description">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']/@ownedColumnMappings[name='description']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_T_75HQ9HEfCas5tY6Mh3KQ" label="Duration" cells="_UARQRA9HEfCas5tY6Mh3KQ _UARQTA9HEfCas5tY6Mh3KQ _UASeZQ9HEfCas5tY6Mh3KQ" width="73" featureName="duration">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']/@ownedColumnMappings[name='duration']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_T_75Hw9HEfCas5tY6Mh3KQ" label="Dialogues" cells="_UARQTg9HEfCas5tY6Mh3KQ" width="64" featureName="dialogues">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']/@ownedColumnMappings[name='dialogues']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_T_75IQ9HEfCas5tY6Mh3KQ" label="Camera" cells="_UARQRg9HEfCas5tY6Mh3KQ _UASeZw9HEfCas5tY6Mh3KQ" width="83" featureName="camera">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']/@ownedColumnMappings[name='camera']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_T_8gIA9HEfCas5tY6Mh3KQ" label="Characters" cells="_UARQUA9HEfCas5tY6Mh3KQ" width="135" featureName="characters">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']/@ownedColumnMappings[name='character']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/storyboard.design2/description/design2.odesign#//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='Storyboard%20table']"/>
+  </table:DTable>
+</xmi:XMI>

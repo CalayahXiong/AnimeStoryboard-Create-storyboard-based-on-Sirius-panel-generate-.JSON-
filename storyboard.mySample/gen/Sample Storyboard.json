@@ -1,0 +1,103 @@
+{
+  "description": "Sample Storyboard",
+  "scenes": [
+
+        {
+          "type": "DialogueScene",
+          "id": 1,
+          "description": "A quiet street at night.",
+          "duration": 10.0,
+          "characters": [
+              {
+                "name": "Albus Dumbledore",
+                "positionX": 10.0,
+                "positionY": 20.0,
+                "action": "Walking"
+              }
+,               {
+                "name": "Minerva McGonagall",
+                "positionX": 12.0,
+                "positionY": 22.0,
+                "action": "Staying still as a cat"
+              }
+          ],
+
+          "dialogues": [
+              {
+                "id": "dialog1",
+                "text": "It's so quiet tonight...",
+                "duration": 3.0,
+                "speaker":  "Albus Dumbledore" 
+              }
+          ]
+
+        }
+
+, 
+        {
+          "type": "CameraScene",
+          "id": 2,
+          "description": "Wide-angle shot",
+          "duration": 10.0,
+          "camera": {
+            "type": "WideAngle",
+            "positionX": 15.0,
+            "positionY": 25.0,
+            "movement": "PanLeft"
+          }
+        }
+
+, 
+        {
+          "type": "DialogueScene",
+          "id": 3,
+          "description": "Albus Dumbledore stops near a cat.",
+          "duration": 10.0,
+          "characters": [
+              {
+                "name": "Albus Dumbledore",
+                "positionX": 12.0,
+                "positionY": 22.0,
+                "action": "Look at the cat"
+              }
+,               {
+                "name": "Minerva McGonagall",
+                "positionX": 12.0,
+                "positionY": 22.0,
+                "action": "Staying still as a cat"
+              }
+          ],
+
+          "dialogues": [
+              {
+                "id": "dialog2",
+                "text": "Good evening, Professor Minerva McGonagall.",
+                "duration": 2.0,
+                "speaker":  "Albus Dumbledore" 
+              }
+,               {
+                "id": "dialog3",
+                "text": "Miao~~",
+                "duration": 2.0,
+                "speaker":  "Minerva McGonagall" 
+              }
+          ]
+
+        }
+
+, 
+        {
+          "type": "CameraScene",
+          "id": 4,
+          "description": "Close-up shot",
+          "duration": 10.0,
+          "camera": {
+            "type": "CloseUp",
+            "positionX": 12.0,
+            "positionY": 22.0,
+            "movement": "ZoomIn"
+          }
+        }
+
+  ]
+}

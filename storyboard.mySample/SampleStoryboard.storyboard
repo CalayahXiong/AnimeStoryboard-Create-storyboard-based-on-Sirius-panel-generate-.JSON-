@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storyboard:Storyboard xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:storyboard="http://www.example.org/storyboard" description="Sample Storyboard">
+  <scenes xsi:type="storyboard:CameraScene" id="2" description="Wide-angle shot" duration="10.0">
+    <camera type="WideAngle" positionX="15.0" positionY="25.0"/>
+  </scenes>
+  <scenes xsi:type="storyboard:DialogueScene" id="3" description="Albus Dumbledore stops near a cat." duration="10.0">
+    <dialogues id="dialog1" text="Good evening, Professor Minerva McGonagall." duration="2.0"/>
+    <dialogues id="dialog2" text="Miao~~" duration="2.0"/>
+    <characters xmi:id="char1" name="Albus Dumbledore" positionX="12.0" positionY="22.0" action="Look at the cat"/>
+    <characters xmi:id="char2" name="Minerva McGonagall" positionX="12.0" positionY="22.0" action="Staying still as a cat"/>
+  </scenes>
+  <scenes xsi:type="storyboard:CameraScene" id="4" description="Close-up shot" duration="10.0">
+    <camera type="CloseUp" positionX="12.0" positionY="22.0" movement="ZoomIn"/>
+  </scenes>
+</storyboard:Storyboard>
