@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="design2" version="15.4.0.202401051836">
+  <ownedViewpoints name="storyboard2">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="storyboard diagram" domainClass="storyboard::Storyboard" enablePopupBars="true">
+      <metamodel href="../../org.anime.storyboard/model/storyboard.ecore#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="SceneRelation" label="Scene Relation" doubleClickDescription="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='componentDoubleClick']" synchronizationLock="true" sourceMapping="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode'] //@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']" targetMapping="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode'] //@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']" targetFinderExpression="aql:self.eContainer().scenes->select(s | s.id > self.id)->sortedBy(s | s.id)->first()">
+          <style sourceArrow="OutputClosedArrow" targetArrow="InputClosedArrow" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_chocolate']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="CameraSceneNode" label="CameraScene" semanticCandidatesExpression="aql:self.scenes->select(s | s.eClass().name = 'CameraScene')" doubleClickDescription="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='componentDoubleClick']" synchronizationLock="true" domainClass="storyboard::Scene" childrenPresentation="VerticalStack">
+          <subContainerMappings name="CameraNode" label="Camera" semanticCandidatesExpression="aql:self.camera" doubleClickDescription="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='componentDoubleClick']" domainClass="storyboard::Camera" childrenPresentation="List">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="aql:self.type">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="aql:self.description">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.id = null or self.id.trim().size() = 0">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="id of scene cannot be null!">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </conditionnalStyles>
+        </containerMappings>
+        <containerMappings name="DialogueSceneNode" label="DialogueScene" semanticCandidatesExpression="aql:self.scenes->select(s | s.eClass().name = 'DialogueScene')" doubleClickDescription="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='componentDoubleClick']" synchronizationLock="true" domainClass="storyboard::Scene" childrenPresentation="VerticalStack">
+          <subContainerMappings name="DialogueNode" label="Dialogue" semanticCandidatesExpression="aql:self.dialogues " doubleClickDescription="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='componentDoubleClick']" synchronizationLock="true" domainClass="storyboard::Dialogue" childrenPresentation="VerticalStack">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="aql:self.text" labelAlignment="LEFT">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>underline</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.id = null or self.id.trim().size() = 0">
+              <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="id of scene cannot be null!">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </conditionnalStyles>
+          </subContainerMappings>
+          <subContainerMappings name="CharacterNode" label="Character" semanticCandidatesExpression="aql:self.characters" doubleClickDescription="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='componentDoubleClick']" synchronizationLock="true" domainClass="storyboard::Character" childrenPresentation="HorizontalStack">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.name = null or self.name.trim().size() = 0">
+              <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="name of character cannot be null!">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </conditionnalStyles>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="aql: self.description">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+          <conditionnalStyles predicateExpression="aql:not self.dialogues->isUnique(d | d.id)">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="id of dialogue has to be unique!!">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:not self.characters->isUnique(c | c.name)">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="'characters' name have to be uniquly defined!!Check again!!'">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.id = null or self.id.trim().size() = 0">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="id of dialogue cannot be null!">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </conditionnalStyles>
+        </containerMappings>
+        <toolSections name="Scene Tools">
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="componentDoubleClick" forceRefresh="true" mappings="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode'] //@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']/@subContainerMappings[name='CameraNode'] //@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode'] //@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode'] //@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='DialogueNode'] //@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@edgeMappings[name='SceneRelation']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create DialogueScene" label="Create Dialogue Scene" forceRefresh="true" containerMappings="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="storyboard::DialogueScene" referenceName="scenes" variableName="newScene">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="aql: self.eContainer().scenes->size().toString()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create Character " forceRefresh="true" containerMappings="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='CharacterNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="storyboard::Character" referenceName="characters" variableName="newCharacter">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'anonym'"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create Dialogue" forceRefresh="true" containerMappings="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='DialogueSceneNode']/@subContainerMappings[name='DialogueNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="storyboard::Dialogue" referenceName="dialogues" variableName="newDialogue">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="aql:'dialog' + (self.dialogues->size()).toString()"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="speaker" valueExpression="service:updateDialogueSpeaker"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create Camera Scene" forceRefresh="true" containerMappings="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="storyboard::CameraScene" referenceName="scenes" variableName="newCameraScene">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="aql: self.eContainer().scenes->size().toString()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create camera" forceRefresh="true" containerMappings="//@ownedViewpoints[name='storyboard2']/@ownedRepresentations[name='storyboard%20diagram']/@defaultLayer/@containerMappings[name='CameraSceneNode']/@subContainerMappings[name='CameraNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="storyboard::Camera" referenceName="camera" variableName="newCamera">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="aql:'LongShot'"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="Storyboard table" showOnStartup="true" domainClass="storyboard::Storyboard">
+      <metamodel href="../../org.anime.storyboard/model/storyboard.ecore#/"/>
+      <ownedLineMappings name="SceneLine" domainClass="storyboard::Scene" semanticCandidatesExpression="feature:scenes"/>
+      <ownedColumnMappings name="id" headerLabelExpression="ID" featureName="id" labelExpression="aql:self.id"/>
+      <ownedColumnMappings name="description" headerLabelExpression="Description" featureName="description" labelExpression="aql:self.description"/>
+      <ownedColumnMappings name="duration" headerLabelExpression="Duration" featureName="duration" labelExpression="aql:self.duration"/>
+      <ownedColumnMappings name="dialogues" headerLabelExpression="Dialogues" featureName="dialogues" labelExpression="aql:self.dialogues->collect(d | d.text)"/>
+      <ownedColumnMappings name="camera" headerLabelExpression="Camera" featureName="camera" labelExpression="aql:self.camera.type"/>
+      <ownedColumnMappings name="character" headerLabelExpression="Characters" featureName="characters" labelExpression="aql: self.characters -> collect(c | c.name)"/>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="storyboard.design2.Services"/>
+  </ownedViewpoints>
+</description:Group>
